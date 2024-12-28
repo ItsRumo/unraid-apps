@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Valkey</Name>
+  <Repository>valkey/valkey</Repository>
+  <Registry>https://registry.hub.docker.com/valkey/valkey/</Registry>
+  <Network>none</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/ItsRumo/unraid-apps/issues</Support>
+  <Project>https://valkey.io/</Project>
+  <Overview>Valkey is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker. Based on official Valkey Docker image.</Overview>
+  <Category>Network:Management Productivity: Tools:Utilities</Category>
+  <WebUI/>
+  <TemplateURL>https://raw.githubusercontent.com/juusujanar/unraid-templates/master/Redis.xml</TemplateURL>
+  <Icon>https://valkey.io/img/Valkey-logo.svg</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1735400807</DateInstalled>
+  <DonateText>If you like my work and want to buy me a beer, feel free.</DonateText>
+  <DonateLink>https://www.paypal.me/jj9987</DonateLink>
+  <Requires/>
+  <Config Name="Valkey Port" Target="6379" Default="6379" Mode="" Description="This is Valkey default connection port." Type="Port" Display="always-hide" Required="true" Mask="null">6379</Config>
+</Container>
